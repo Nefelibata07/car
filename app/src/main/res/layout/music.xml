@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:elevation="500dp"
+        android:translationZ="10dp"
+        android:background="@color/ck_background_grey"
+        tools:layout_editor_absoluteX="-191dp"
+        tools:layout_editor_absoluteY="-81dp">
+
+       <!-- <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:fontFamily="sans-serif-condensed"
+                android:gravity="center"
+                android:text="蜂鸣与音乐"
+                android:textColor="@color/ck_orange"
+                android:textSize="30sp"
+                android:typeface="monospace"
+                />
+        </RelativeLayout>-->
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/grey">
+        </ImageView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="50dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card_shape"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/beep_lab"
+                            android:layout_width="100sp"
+                            android:layout_height="50sp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="40dp"
+                            android:gravity="center"
+                            android:text="蜂鸣"
+                            android:textColor="@color/black"
+                            android:textSize="25dp"
+                            android:typeface="monospace"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:shadowRadius="2"/>
+
+                        <RelativeLayout
+                            android:layout_width="300dp"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/beepStart_btn"
+                                android:layout_width="100sp"
+                                android:layout_height="50sp"
+                                android:layout_centerVertical="true"
+                                android:layout_marginBottom="40dp"
+                                android:background="@drawable/round_corner_btn"
+                                android:layout_gravity="left"
+                                android:elevation="50dp"
+                                android:text="鸣笛"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:typeface="monospace" />
+
+                            <Button
+                                android:id="@+id/beepStop_btn"
+                                android:layout_width="100sp"
+                                android:layout_height="50sp"
+                                android:layout_centerVertical="true"
+                                android:background="@drawable/round_corner_btn"
+                                android:layout_gravity="right"
+                                android:layout_alignParentRight="true"
+                                android:text="停止"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:typeface="monospace" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="280dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="35dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/card_shape"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/music_lab"
+                            android:layout_width="100sp"
+                            android:layout_height="50sp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginBottom="60dp"
+                            android:color="@color/btn_color_disselect"
+                            android:gravity="center"
+                            android:text="音乐"
+                            android:textColor="@color/black"
+                            android:textSize="25sp"
+                            android:typeface="monospace"
+                            android:shadowColor="@color/black"
+                            android:shadowDx="1"
+                            android:shadowDy="1"
+                            android:shadowRadius="2"/>
+
+                        <RelativeLayout
+                            android:layout_width="350dp"
+                            android:layout_height="wrap_content">
+
+                            <Button
+                                android:id="@+id/musicStart_btn"
+                                android:layout_width="100sp"
+                                android:layout_height="50sp"
+                                android:layout_alignParentLeft="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/round_corner_btn"
+                                android:gravity="center"
+                                android:text="第一首"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:typeface="monospace" />
+
+                            <Button
+                                android:id="@+id/musicNext_btn"
+                                android:layout_width="100sp"
+                                android:layout_height="50sp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginBottom="20dp"
+                                android:background="@drawable/round_corner_btn"
+                                android:gravity="center"
+                                android:text="下一首"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:typeface="monospace" />
+
+                            <Button
+                                android:id="@+id/musicStop_btn"
+                                android:layout_width="100sp"
+                                android:layout_height="50sp"
+                                android:layout_centerVertical="true"
+                                android:layout_alignParentRight="true"
+                                android:background="@drawable/round_corner_btn"
+                                android:gravity="center"
+                                android:text="停止"
+                                android:textColor="@color/white"
+                                android:textSize="20sp"
+                                android:typeface="monospace" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+       <!-- <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/backMenu_btn"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:layout_centerVertical="true"
+                android:background="@color/ck_blue"
+                android:gravity="center"
+                android:text="返回上一级"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+-->
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

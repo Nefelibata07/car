@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-191dp"
+        tools:layout_editor_absoluteY="-81dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="风扇控制"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/fanStop_btn"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
+                android:layout_centerVertical="true"
+                android:background="@color/btn_color_disselect"
+                android:gravity="center"
+                android:text="停止"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/speedup_btn"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
+                android:layout_above="@id/fanStop_btn"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="50sp"
+                android:background="@color/btn_color_disselect"
+                android:gravity="center"
+                android:text="加速"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+
+            <Button
+                android:id="@+id/speeddown_btn"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
+                android:layout_below="@id/fanStop_btn"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="50sp"
+                android:background="@color/btn_color_disselect"
+                android:gravity="center"
+                android:text="降速"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+
+                <Button
+                    android:id="@+id/speedLeftbtn"
+                    android:layout_width="100sp"
+                    android:layout_height="50sp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="50sp"
+                    android:background="@color/btn_color_disselect"
+                    android:layout_toLeftOf="@id/fanStop_btn"
+                    android:gravity="center"
+                    android:text="正转"
+                    android:textColor="@color/white"
+                    android:textSize="25sp"
+                    android:typeface="monospace" />
+
+
+            <Button
+                android:id="@+id/speedRight_btn"
+                android:layout_width="100sp"
+                android:layout_height="50sp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50sp"
+                android:layout_toRightOf="@id/fanStop_btn"
+                android:background="@color/btn_color_disselect"
+                android:gravity="center"
+                android:text="反转"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/backMenu_btn"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:background="@color/btn_color_disselect"
+                android:gravity="center"
+                android:text="返回上一级"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.14907407407407408" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/drawable-v24/radio_button.xml" value="0.159375" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/drawable/btn_shape.xml" value="0.159375" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.14907407407407408" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/activity_debug.xml" value="0.12639311043566362" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/ble_activity.xml" value="0.2" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/colorrec.xml" value="0.264" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/fan.xml" value="0.2" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/listitem.xml" value="0.4" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/meta.xml" value="0.264" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/music.xml" value="0.264" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/trace.xml" value="0.264" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/layout/wifi.xml" value="0.4" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.14444444444444443" />
+        <entry key="..\:/labProject/teacher/createApp/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.14444444444444443" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Embedded JDK" project-jdk-type="JavaSDK" />
+</project>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-191dp"
+        tools:layout_editor_absoluteY="-81dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerVertical="true"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="颜色识别及跟随"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="600sp"
+                    android:layout_height="100sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center">
+                    <TextView
+                        android:id="@+id/avoid_lab"
+                        android:layout_width="200sp"
+                        android:layout_height="80sp"
+                        android:background="@color/btn_color_disselect"
+                        android:gravity="center"
+                        android:text="显示识别的颜色:"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:typeface="monospace" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="300sp"
+                    android:layout_height="100sp"
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+                     <TextView
+                        android:id="@+id/trace_lab"
+                        android:layout_width="200sp"
+                        android:layout_height="80sp"
+                        android:layout_centerVertical="true"
+                         android:background="@color/btn_color_disselect"
+                        android:gravity="center"
+                        android:text="红色/蓝色/黄色"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:typeface="monospace" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="300sp"
+                    android:layout_height="50sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp">
+
+                    <Button
+                        android:id="@+id/recognizeStart_btn"
+                        android:layout_width="100sp"
+                        android:layout_height="50sp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="120sp"
+                        android:background="@color/btn_color_disselect"
+                        android:gravity="center"
+                        android:text="开始"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:typeface="monospace" />
+
+                    <Button
+                        android:id="@+id/recognizeStop_btn"
+                        android:layout_width="100sp"
+                        android:layout_height="50sp"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/recognizeStart_btn"
+                        android:background="@color/btn_color_disselect"
+                        android:gravity="center"
+                        android:text="停止"
+                        android:textColor="@color/white"
+                        android:textSize="25sp"
+                        android:typeface="monospace" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center">
+            <Button
+                android:id="@+id/backMenu_btn"
+                android:layout_width="300sp"
+                android:layout_height="50sp"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="10dp"
+                android:background="@color/btn_color_disselect"
+                android:gravity="center"
+                android:text="返回上一级"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                android:typeface="monospace" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
